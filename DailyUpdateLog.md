@@ -33,14 +33,14 @@
  + Skill library grows with every task
 
  STATUS: Base architecture complete. First boot successful.
- ================================================================
+================================================================
 
   DAY 1 — TESTING & FIXES  |  Feb 26, 2026
  ================================================================
  First real-world test run. Task: "open notepad"
 
  ISSUES FOUND:
- - Vision model (llava) outputting garbage tokens <s> <unk>
+ - Vision model (llava) outputting garbage tokens
  - Brain sending coordinates to wrong screen positions
  - Each action taking 1-2 minutes (running on CPU)
  - Agent not recognizing task completion — kept looping
@@ -67,7 +67,6 @@
  REMAINING ISSUE:
  - Agent not calling task_complete after goal achieved
  - Still repeating actions unnecessarily
-   ================================================================
 
   DAY 2 — API INTEGRATION & STABILITY  |  Feb 27, 2026
  ================================================================
@@ -119,7 +118,6 @@
  + Invalid action format detected and rejected cleanly
  + Groq integration ready — awaiting API key
  + Trainer scaffolding complete — ready for school phase
-================================================================
 
   CURRENT STATE  |  Feb 27, 2026
  ================================================================
